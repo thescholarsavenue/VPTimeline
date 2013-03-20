@@ -36,6 +36,13 @@ body {
 	
 }
 
+#dialog-modal {
+	margin: 100px;
+	background: white;
+	border-radius: 50px;
+	padding: 10px;
+}
+
 #footer {
     padding: 10px;
     margin-left: 75px;
