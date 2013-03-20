@@ -32,7 +32,7 @@ body {
     border-radius: 50px;
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.90);
 	
 }
 
@@ -41,10 +41,10 @@ body {
     margin-left: 75px;
     margin-right: 75px;
     margin-top: 15px;
-    border-radius: 25px;
+    border-radius: 50px;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
-    background: rgba(54, 54, 54, 0.95);
+    background: rgba(54, 54, 54, 0.90);
 	color: white;
 	font-size: 0.7em;
 }
@@ -52,7 +52,7 @@ body {
 h1 {
 	//text-shadow: 0.1em 0.1em 0.2em grey;
 	margin-top: -15px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 /*
@@ -122,8 +122,8 @@ font-size: 0.9em;
 
 img.icon {
     border-radius: 56px;
-    width: 56px;
-    height: 56px;
+    width: 44px;
+    height: 44px;
     
     transition: opacity 0.5s, width 0.3s, height 0.3s;
     -moz-transition: opacity 0.5s, width 0.3s, height 0.3s;
@@ -133,8 +133,8 @@ img.icon {
 
 img.proposal {
     //border: 1px solid;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     border-radius: 40px;
 }
 
@@ -226,7 +226,7 @@ span.vp:hover span {
     z-index:9999;
     color:#fff;
     font-size:10px;
-    width:180px;  
+    width:150px;  
 }
 
 #tooltip .tipBody {
