@@ -14,15 +14,61 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+		
+		<!-- The addition for popups -->
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+  
+		<script>
+		$(function() {
+		  $( "#dialog-modal" ).dialog({
+			height: 140,
+			modal: true
+		  });
+		});
+		</script>
         
     </head>
     <body>
+	
+		
+		<div id="dialog-modal" title="How do I play with this?">
+		<ul>
+		
+			<li> *Click* on a VP candidate to see all his proposals spread over different categories</li>
+			<li> *Hover* over category names to see what they encompass </li>		
+
+			<li> Proposals are color coded. Green indicates completion, Red : failure, Orange : Partial implementation and Blue : Losing candidate's proposal </li>
+			<li> You can click on an individual proposal to see all related proposals over the ages </li>		
+	
+			<li> *Hover* over a VP candidate's pic to view all proposals and candidates from the same hall.</li>		
+		</ul>
+		</div>
+		
+	
+		<!-- Facebook plugin -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
+		
+		<div class="fb-like" data-href="http://thescholarsavenue.github.com/VPTimeline/" data-send="true" data-layout="box_count" data-show-faces="true" data-font="segoe ui" data-colorscheme="dark"></div>
+		
         <div id="main_content">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
+		
+
+		
 		<img style="float: right;" height="40px" src="img/tsa.png">
         <h1>All the Vice President's men</h1>
 
@@ -31,14 +77,12 @@
         <script src="js/plugins.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-         <script>
-            var _gaq=[['_setAccount','UA-39461113-1'],['_trackPageview']];
+        <!-- <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script> 
-        
-        
+        </script> -->
         <script>
             var halls = new Array();
             halls[0] = "RK Hall";
@@ -234,8 +278,6 @@
 
             });
 
-
-
         </script>
         <a rel="tooltip" type="name" title="Kunal Kashyap">2007 <img class="icon" tag="4" name="Kunal Kashyap" onMouseOver="highlightOn(4)" onMouseOut="highlightOff(4)" onClick="nameHighlightStay('Kunal Kashyap')" src="img/vp_icons/kunal_kashyap.jpg"></a>
         <a rel="tooltip" type="name" title="Arnav">2008 <img class="icon" tag="3" name="Arnav" onMouseOver="highlightOn(3)" onMouseOut="highlightOff(3)" onClick="nameHighlightStay('Arnav')" src="img/vp_icons/arnav.jpg"></a>
@@ -267,7 +309,7 @@
             </tr>
             
             <tr>
-                <td style="text-align: center;"><div class="category" id="state_of_living"><a rel="tooltip" type="help" title="Proposals whose aim is to make life more comfortable and convenient on campus. This incudes 'hard' proposals which pertain to infrastructure, such as changes related to restaurants and the library, and 'soft' proposals, which include opening online complaint windows and enabling electronic transaction of funds."><h4>State of Living</h4></a></div></td>
+                <td style="text-align: center;"><div class="category" id="state_of_living"><a rel="tooltip" type="help" title="Proposals whose aim is to make life more comfortable and convenient on campus. This incudes 'hard' proposals which pertain to infrastructure, such as changes related to restaurants and the library, and 'soft' proposals, which include opening online complaint windows and enabling electronic transaction of funds."><img class="info-icon" src="img/info.png"> <b>State of Living</b></a></div></td>
                 <td></td>
                 <td>
                  <a rel="tooltip" type="pending" title="Arnav<hr/>Setting up a committee of students under CELC to conduct random checks on in-campus restaurants."><img class="icon proposal" tag="3" name="Arnav" similarity="57" onMouseOver="similarityHighlightOn(57)" onMouseOut="similarityHighlightOff(57)" onClick="similarityHighlightStay(57)" src="img/vp_icons/arnav.jpg"></a> 
@@ -277,10 +319,6 @@
                     <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/> Online maintenance complaint system (as part of other IT serives)"><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="58" onMouseOver="similarityHighlightOn(58)" onMouseOut="similarityHighlightOff(58)" onClick="similarityHighlightStay(58)" src="img/vp_icons/ankit_singh_tawar.jpg"></a> 
                     <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>IT support for: gymkhana activities, document student projects, streamline registration process, etc."><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="59" onMouseOver="similarityHighlightOn(59)" onMouseOut="similarityHighlightOff(59)" onClick="similarityHighlightStay(59)" src="img/vp_icons/ankit_singh_tawar.jpg"></a> 
                     <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>Establish AIESEC chapter in IIT Kharagpur: offers leadership positions and opportunities for students and recent graduates to live and work in another country.Establish a network of battery operated buses covering all halls, departments and major points in the campus"><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="2" onMouseOver="similarityHighlightOn(2)" onMouseOut="similarityHighlightOff(2)" onClick="similarityHighlightStay(2)" src="img/vp_icons/ankit_singh_tawar.jpg"></a> 
-                    <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>Extend the daily timings of the reference section of Central Library to 3 am starting from a week ahead of exams till the end of exams."><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="50" onMouseOver="similarityHighlightOn(50)" onMouseOut="similarityHighlightOff(50)" onClick="similarityHighlightStay(50)" src="img/vp_icons/ankit_singh_tawar.jpg"></a> 
-                    
-			
-			
 			    </td>
                 <td>
                 	<a rel="tooltip" type="pending" title="Shubham Matah<hr/>Provide additional infrastructure to student groups for conducting meetings."><img class="icon proposal" tag="4" name="Shubham Matah" similarity="3" onMouseOver="similarityHighlightOn(3)" onMouseOut="similarityHighlightOff(3)" onClick="similarityHighlightStay(3)" src="img/vp_icons/shubham_matah.jpg"></a> 
@@ -313,15 +351,16 @@
             </tr>
             
             <tr>
-                <td style="text-align: center;"><div class="category" id="welfare"><a rel="tooltip" type="help" title="There's more to life than a cozy existence. This category includes proposals which aim to add to your skill-set in some manner, such as information sessions for freshers, or target the realm of extra-curriculars, such as the inter-IITs and societies. We've also included proposals related to student research in this category."><h4>Welfare</h4></a></div></td>
+                <td style="text-align: center;"><div class="category" id="welfare"><a rel="tooltip" type="help" title="There's more to life than a cozy existence. This category includes proposals which aim to add to your skill-set in some manner, such as information sessions for freshers, or target the realm of extra-curriculars, such as the inter-IITs and societies. We've also included proposals related to student research in this category."><img class="info-icon" src="img/info.png"> <b>Welfare</b></a></div></td>
                 <td></td>
                 <td>
                 <a rel="tooltip" type="done" title="Arnav<hr/>Building of an e-resource platform for students to share class notes of previous semesters, examination papers and resources for career enhancement"><img class="icon proposal" tag="3" name="Arnav" similarity="11" onMouseOver="similarityHighlightOn(11)" onMouseOut="similarityHighlightOff(11)" onClick="similarityHighlightStay(11)" src="img/vp_icons/arnav.jpg"></a> 
                 
-                 <a rel="tooltip" type="ignored" title="Arnav<hr/>Inducting students in the library committee so that more money is devoted to books required by students"><img class="icon proposal" tag="3" name="Arnav" similarity="13" onMouseOver="similarityHighlightOn(13)" onMouseOut="similarityHighlightOff(13)" onClick="similarityHighlightStay(13)" src="img/vp_icons/arnav.jpg"></a> 
+                 <a rel="tooltip" type="ignored" title="Arnav<hr/>Inducting students in the library committee so that more money is devoted to books required by students"><img class="icon proposal" tag="3" name="Arnav" similarity="50" onMouseOver="similarityHighlightOn(50)" onMouseOut="similarityHighlightOff(50)" onClick="similarityHighlightStay(50)" src="img/vp_icons/arnav.jpg"></a> 
                
                 <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>    Introduce fresher counseling: fresher orientation, parents’ orientation and student mentor allocation."><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="14" onMouseOver="similarityHighlightOn(14)" onMouseOut="similarityHighlightOff(14)" onClick="similarityHighlightStay(14)" src="img/vp_icons/ankit_singh_tawar.jpg"></a> 
-			
+				
+				<a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>Extend the daily timings of the reference section of Central Library to 3 am starting from a week ahead of exams till the end of exams."><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="50" onMouseOver="similarityHighlightOn(50)" onMouseOut="similarityHighlightOff(50)" onClick="similarityHighlightStay(50)" src="img/vp_icons/ankit_singh_tawar.jpg"></a>		
             
                 </td>
                 <td></td>
@@ -332,7 +371,7 @@
                 <a rel="tooltip" type="ignored" title="Rinshul Chandra<hr/>Creation of a Cultural Technology Dramatics society."><img class="icon proposal" tag="0" name="Rinshul Chandra" similarity="20" onMouseOver="similarityHighlightOn(20)" onMouseOut="similarityHighlightOff(20)" onClick="similarityHighlightStay(20)" src="img/vp_icons/rinshul_chandra.jpg"></a> </td>
             </tr>
             <tr>
-                <td style="text-align: center;"><div class="category" id="placements"><a rel="tooltip" type="help" title="Needs little explanation."><h4>Placements</h4></a></div></td>
+                <td style="text-align: center;"><div class="category" id="placements"><a rel="tooltip" type="help" title="Needs little explanation."><img class="info-icon" src="img/info.png"> <b>Placements</b></a></div></td>
                 <td>
                     <a rel="tooltip" type="pending" title="Kunal Kashyap<hr/>To make a Foreign Applications Cell at the Institute level."><img class="icon proposal progress" tag="4" name="Kunal Kashyap" similarity="51" onMouseOver="similarityHighlightOn(51)" onMouseOut="similarityHighlightOff(51)" onClick="similarityHighlightStay(51)" src="img/vp_icons/kunal_kashyap.jpg"></a> 
                     <a rel="tooltip" type="ignored" title="Kunal Kashyap<hr/>Formation of groups of people with interests in a particular alternative career, such as IAS."><img class="icon proposal" tag="4" name="Kunal Kashyap" similarity="55" onMouseOver="similarityHighlightOn(55)" onMouseOut="similarityHighlightOff(55)" onClick="similarityHighlightStay(55)" src="img/vp_icons/kunal_kashyap.jpg"></a> 
@@ -371,7 +410,7 @@
                     <a rel="tooltip" type="partial" title="Vishal Devrajan<hr/>Look for intern opportunities, online repository for students applying to universities. Changes to TnP."><img class="icon proposal" tag="3" name="Vishal Devrajan" similarity="51" onMouseOver="similarityHighlightOn(51)" onMouseOut="similarityHighlightOff(51)" onClick="similarityHighlightStay(51)" src="img/vp_icons/vishal_devrajan.jpg"></a> 
                 </td>
             </tr>
-                 <td style="text-align: center;"><div class="category" id="others"><a rel="tooltip" type="help" title="Interesting, amusing, thought-provoking ideas that don't fit clearly into the above."><h4>Others </h4></a></div></td>
+                 <td style="text-align: center;"><div class="category" id="others"><a rel="tooltip" type="help" title="Interesting, amusing, thought-provoking ideas that don't fit clearly into the above."><img class="info-icon" src="img/info.png"> <b>Others</b></a></div></td>
                 <td></td>
                 <td>
                        <a rel="tooltip" type="pending" title="Arnav<hr/>Establishment of a core marketing team of students in SRIC so that students can earn handsome stipends by working on industry sponsored projects within the institute."><img class="icon proposal" tag="3" name="Arnav" similarity="54" onMouseOver="similarityHighlightOn(54)" onMouseOut="similarityHighlightOff(54)" onClick="similarityHighlightStay(54)" src="img/vp_icons/arnav.jpg"></a> 
@@ -423,7 +462,7 @@
 <ul>
 <li>In each year, the categories across which proposals of a candidate lie can be seen.</li>
 <li>A one-line summary of the proposal is visible on hovering over it.</li>
-<li>How successful was a proposal? This is colour-coded: green is a thumbs-up; organge signifies partial success; red is a nada. These colours don't make sense for candidates who didn't win. Such proposals are coded blue. Details on the judgement are elsewhere in this article.</li>
+<li>How successful was a proposal? This is colour-coded: green is a thumbs-up; orange signifies partial success; red is a nada. These colours don't make sense for candidates who didn't win. Such proposals are coded blue. Details on the judgement are elsewhere in this article.</li>
 <li>On hovering above a proposal, similar ones across time are highlighted.</li></ul></p>
 
 <p><b>How was similarity decided?</b><br/>
@@ -432,7 +471,8 @@ The similarity between certain classes are visible right away on a first inspect
 <p>Now some amount of similarity is expected. Say a candidate didn't win but had good ideas which weren't implemented by the winning one either, and then these are legitly taken up in the future. Or say that continual development on important issues is warranted. But we are of the opinion that some high-interest topics get inevitably repeated, such as placements, because candidates don't want to be the guy who didn't make a proposal out of them. We also think that proposals on common themes act like filler material.</p>
 
 <p><b>Now how exactly were the proposals judged?</b><br/>
-A couple of disclaimers and explanations are in order, and we encourage you to read on before drawing weapons in defense of your favourite VP. We've made a decision based on the Vice Presidential review TSA performs at the end of each year. The orange colour category is, admittedly, the grayest area. In some cases it signifies that effort was put in, but it did not lead to a fulfilment of the proposal, e.g. Prateek's idea of an online grievance facility was implemented but is not active. It must also be remembered that proposals are dynamic. Upon assuming office, the office-bearers might realize that their proposal may be implemented in a modified form or tied up with other undertakings, e.g. Arnav's proposal to create a career options cell for conducting seminars was met by roping Communique into TSG. The categorization should also not be taken as a literal indicator of the work put in by the VP in question. In some cases, it is after a number of sincere attempts that the infeasibility of a project becomes apparent. In others, the VP has simply not done enough. </p>
+A couple of disclaimers and explanations are in order, and we encourage you to read on before drawing weapons in defense of your favourite VP. We've made a decision based on the Vice Presidential review TSA performs at the end of each year. The orange colour category is, admittedly, the grayest area. In some cases it signifies that effort was put in, but it did not lead to a fulfilment of the proposal, e.g. Prateek's idea of an online grievance facility was implemented but is not active. It must also be remembered that proposals are dynamic. Upon assuming office, the office-bearers might realize that their proposal may be implemented in a modified form or tied up with other undertakings, e.g. Arnav's proposal to create a career options cell for conducting seminars was met by roping Communique into TSG. The categorization should also not be taken as a literal indicator of the work put in by the VP in question. In some cases, it is after a number of sincere attempts that the infeasibility of a project becomes 
+apparent. In others, the VP has simply not done enough. </p>
 <p>Another valid point that can be raised is that a project started by a particular candidate is carried over in the next year by the subsequent elected body. In addition, VPs often do considerable work beyond their proposals. The categorization here does not reflect that. This is because we are specifically drawing attention to proposals as they are announced at the time of elections. For details on the ultimate fate of proposals, we point you to the full-scale reviews available on our site. In providing an initial flavour however, we believe the colour categorization is accurate.</p>
 
 <p><b>Other interesting bits</b><br/>

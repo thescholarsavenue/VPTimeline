@@ -120,6 +120,21 @@ column-rule:3px outset orange;
 font-size: 0.9em;
 }
 
+div.fb-like {
+	background: rgb(82, 82, 82);
+	padding: 20px;
+	border-radius: 100px;
+	float: left;
+	position: relative;
+		left: 20px;
+		top: 100px;
+}
+
+img.info-icon {
+	background: rgb(185, 212, 221);
+	border-radius: 20px;
+}
+
 img.icon {
     border-radius: 56px;
     width: 44px;
