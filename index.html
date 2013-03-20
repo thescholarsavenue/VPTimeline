@@ -14,40 +14,11 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-		
-		<!-- 
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
-		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-		<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
-  
-		<script>
-		$(function() {
-		  $( "#dialog-modal" ).dialog({
-			height: 140,
-			modal: true
-		  });
-		});
-		</script>
-		The addition for popups -->
-        
+		     
     </head>
     <body>
-	<!--
-		
-		<div id="dialog-modal" title="How do I play with this?">
-		<ul>
-		
-			<li> *Click* on a VP candidate to see all his proposals spread over different categories</li>
-			<li> *Hover* over category names to see what they encompass </li>		
-
-			<li> Proposals are color coded. Green indicates completion, Red : failure, Orange : Partial implementation and Blue : Losing candidate's proposal </li>
-			<li> You can click on an individual proposal to see all related proposals over the ages </li>		
 	
-			<li> *Hover* over a VP candidate's pic to view all proposals and candidates from the same hall.</li>		
-		</ul>
-		</div>
-		-->
-	
+		
 		<!-- Facebook plugin -->
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
@@ -58,8 +29,19 @@
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 		</script>
+		<div class="side-fb">
+		<div class="fb-like" data-href="http://thescholarsavenue.github.com/VPTimeline/" data-send="true" data-layout="box_count" data-show-faces="true" data-font="segoe ui" data-colorscheme="dark"></div><hr/>
+		<a type="help-main" rel="tooltip" title="<ul>
 		
-		<div class="fb-like" data-href="http://thescholarsavenue.github.com/VPTimeline/" data-send="true" data-layout="box_count" data-show-faces="true" data-font="segoe ui" data-colorscheme="dark"></div>
+			<li>'Click' on a VP candidate to see all his proposals spread over different categories</li>
+			<li>'Hover' over category names to see what they encompass </li>		
+
+			<li>Proposals are color coded. Green indicates completion, Red : failure, Orange : Partial implementation and Blue : Losing candidate's proposal </li>
+			<li>You can click on an individual proposal to see all related proposals over the ages </li>		
+	
+			<li>'Hover' over a VP candidate's pic to view all proposals and candidates from the same hall.</li>		
+		</ul>"><center>Help</center></a>
+		</div>
 		
         <div id="main_content">
         <!--[if lt IE 7]>
@@ -78,12 +60,12 @@
         <script src="js/plugins.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <!-- <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        <script>
+            var _gaq=[['_setAccount','UA-39461113-1'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script> -->
+        </script> 
         <script>
             var halls = new Array();
             halls[0] = "RK Hall";

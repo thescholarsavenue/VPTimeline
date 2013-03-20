@@ -127,8 +127,10 @@ column-rule:3px outset orange;
 font-size: 0.9em;
 }
 
-div.fb-like {
+div.side-fb {
 	background: rgb(82, 82, 82);
+	color: white;
+	font-size: 0.6em;
 	padding: 20px;
 	border-radius: 100px;
 	float: left;
@@ -183,6 +185,12 @@ img.proposal {
 #tooltip .help {
     background: purple;
 	width: 300px;
+}
+
+#tooltip .help-main {
+    background: yellow;
+	color: black;
+	width: 500px;
 }
 
 span.vp span {
