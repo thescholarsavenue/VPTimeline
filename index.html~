@@ -14,7 +14,6 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <!-- <script src="js/vendor/modernizr-2.6.1.min.js"></script> -->
         
     </head>
     <body>
@@ -24,15 +23,12 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+		<img style="float: right;" height="40px" src="img/tsa.png">
         <h1>All the Vice President's men</h1>
-        
-        
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/libs/raphael-2.1.0/raphael-min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!-- <script>
@@ -158,7 +154,7 @@
                     l = x.length; 
                     for (var i=0; i<l; i++) { 
                         y = x[i].getAttribute('similarity'); 
-                        if(y != similarity) { 
+	                    if(y != similarity) { 
                             x[i].style.opacity = 0.1; 
                         } 
                     }
@@ -237,13 +233,13 @@
             });
 
         </script>
-        <a rel="tooltip" type="name" title="Kunal Kashyap">2007 <img class="icon" tag="3" name="Kunal Kashyap" onMouseOver="highlightOn(3)" onMouseOut="highlightOff(3)" onClick="nameHighlightStay('Kunal Kashyap')" src="img/vp_icons/kunal_kashyap.jpg"></a>
-        <a rel="tooltip" type="name" title="Arnav">2008 <img class="icon" tag="3" name="Arnav" onMouseOver="highlightOn(3)" onMouseOut="highlightOff(3)" onClick="nameHighlightStay('Arnav')" src="img/vp_icons/default.png"></a>
-        <a rel="tooltip" type="name" title="Ankit Singh Tawar"> <img class="icon" tag="3" name="Ankit Singh Tawar" onMouseOver="highlightOn(3)" onMouseOut="highlightOff(3)" onClick="nameHighlightStay('Ankit Singh Tawar')" src="img/vp_icons/default.png"></a>
+        <a rel="tooltip" type="name" title="Kunal Kashyap">2007 <img class="icon" tag="4" name="Kunal Kashyap" onMouseOver="highlightOn(4)" onMouseOut="highlightOff(4)" onClick="nameHighlightStay('Kunal Kashyap')" src="img/vp_icons/kunal_kashyap.jpg"></a>
+        <a rel="tooltip" type="name" title="Arnav">2008 <img class="icon" tag="3" name="Arnav" onMouseOver="highlightOn(3)" onMouseOut="highlightOff(3)" onClick="nameHighlightStay('Arnav')" src="img/vp_icons/arnav.jpg"></a>
+        <a rel="tooltip" type="name" title="Ankit Singh Tawar"> <img class="icon" tag="0" name="Ankit Singh Tawar" onMouseOver="highlightOn(0)" onMouseOut="highlightOff(0)" onClick="nameHighlightStay('Ankit Singh Tawar')" src="img/vp_icons/ankit_singh_tawar.jpg"></a>
                
                <a rel="tooltip" type="name" title="Shubham Matah">2009 <img class="icon" tag="4" name="Shubham Matah" onMouseOver="highlightOn(4)" onMouseOut="highlightOff(4)" onClick="nameHighlightStay('Shubham Matah')" src="img/vp_icons/shubham_matah.jpg"></a>
         <a rel="tooltip" type="name" title="Digvijay Gagneja"><img class="icon" tag="2" name="Digvijay Gagneja" onMouseOver="highlightOn(2)" onMouseOut="highlightOff(2)" onClick="nameHighlightStay('Digvijay Gagneja')" src="img/vp_icons/digvijay_gagneja.jpg"></a>
-        <a rel="tooltip" type="name" title="Celestine Joseph">2010 <img class="icon" tag="1" name="Celestine Joseph" onMouseOver="highlightOn(1)" onMouseOut="highlightOff(1)" onClick="nameHighlightStay('Celestine Joseph')" src="img/vp_icons/celestine_joseph.jpg"></a>i
+        <a rel="tooltip" type="name" title="Celestine Joseph">2010 <img class="icon" tag="1" name="Celestine Joseph" onMouseOver="highlightOn(1)" onMouseOut="highlightOff(1)" onClick="nameHighlightStay('Celestine Joseph')" src="img/vp_icons/celestine_joseph.jpg"></a>
         <a rel="tooltip" type="name" title="Nivesh Pandey"><img class="icon" tag="3" name="Nivesh Pandey" onMouseOver="highlightOn(3)" onMouseOut="highlightOff(3)" onClick="nameHighlightStay('Nivesh Pandey')" src="img/vp_icons/nivesh_pandey.jpg"></a>
         <a rel="tooltip" type="name" title="Ankit Singh"><img class="icon" tag="3" name="Ankit Singh" onMouseOver="highlightOn(3)" onMouseOut="highlightOff(3)" onClick="nameHighlightStay('Ankit Singh')" src="img/vp_icons/ankit_singh.jpg"></a>
        
@@ -267,32 +263,32 @@
             </tr>
             
             <tr>
-                <td style="text-align: center;"><div class="category" id="state_of_living"><h4>State of Living</h4></div></td>
+                <td style="text-align: center;"><div class="category" id="state_of_living"><a rel="tooltip" type="help" title="Proposals whose aim is to make life more comfortable and convenient on campus. This incudes 'hard' proposals which pertain to infrastructure, such as changes related to restaurants and the library, and 'soft' proposals, which include opening online complaint windows and enabling electronic transaction of funds."><h4>State of Living</h4></a></div></td>
                 <td></td>
                 <td>
-                 <a rel="tooltip" type="pending" title="Arnav<hr/>Setting up a committee of students under CELC to conduct random checks on in-campus restaurants."><img class="icon proposal" tag="4" name="Arnav" similarity="57" onMouseOver="similarityHighlightOn(57)" onMouseOut="similarityHighlightOff(57)" onClick="similarityHighlightStay(57)" src="img/vp_icons/default.png"></a> 
-                  <a rel="tooltip" type="ignored" title="Arnav<hr/>Extend the facility of online complaints regarding maintenance, water supply, electricity and LAN related problems to the students"><img class="icon proposal" tag="4" name="Arnav" similarity="58" onMouseOver="similarityHighlightOn(58)" onMouseOut="similarityHighlightOff(58)" onClick="similarityHighlightStay(58)" src="img/vp_icons/default.png"></a> 
-                  <a rel="tooltip" type="ignored" title="Arnav<hr/>Introducing competing mess system"><img class="icon proposal" tag="4" name="Arnav" similarity="1" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/default.png"></a> 
-                    <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>Establish a Food Quality and Hygiene Monitoring Committee to define standards, conduct random checks on hall messes, canteens, and restaurants in the campus to maintain quality."><img class="icon proposal" tag="4" name="Ankit Singh Tawar" similarity="57" onMouseOver="similarityHighlightOn(57)" onMouseOut="similarityHighlightOff(57)" onClick="similarityHighlightStay(57)" src="img/vp_icons/default.png"></a> 
-                    <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/> Online maintenance complaint system (as part of other IT serives)"><img class="icon proposal" tag="4" name="Ankit Singh Tawar" similarity="58" onMouseOver="similarityHighlightOn(58)" onMouseOut="similarityHighlightOff(58)" onClick="similarityHighlightStay(58)" src="img/vp_icons/default.png"></a> 
-                                     <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>IT support for: gymkhana activities, document student projects, streamline registration process, etc."><img class="icon proposal" tag="4" name="Ankit Singh Tawar" similarity="59" onMouseOver="similarityHighlightOn(59)" onMouseOut="similarityHighlightOff(59)" onClick="similarityHighlightStay(59)" src="img/vp_icons/default.png"></a> 
-                    <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>Establish AIESEC chapter in IIT Kharagpur: offers leadership positions and opportunities for students and recent graduates to live and work in another country.Establish a network of battery operated buses covering all halls, departments and major points in the campus"><img class="icon proposal" tag="4" name="Ankit Singh Tawar" similarity="1" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/default.png"></a> 
-                    <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>Extend the daily timings of the reference section of Central Library to 3 am starting from a week ahead of exams till the end of exams."><img class="icon proposal" tag="4" name="Ankit Singh Tawar" similarity="50" onMouseOver="similarityHighlightOn(50)" onMouseOut="similarityHighlightOff(50)" onClick="similarityHighlightStay(50)" src="img/vp_icons/default.png"></a> 
+                 <a rel="tooltip" type="pending" title="Arnav<hr/>Setting up a committee of students under CELC to conduct random checks on in-campus restaurants."><img class="icon proposal" tag="3" name="Arnav" similarity="57" onMouseOver="similarityHighlightOn(57)" onMouseOut="similarityHighlightOff(57)" onClick="similarityHighlightStay(57)" src="img/vp_icons/arnav.jpg"></a> 
+                  <a rel="tooltip" type="ignored" title="Arnav<hr/>Extend the facility of online complaints regarding maintenance, water supply, electricity and LAN related problems to the students"><img class="icon proposal" tag="3" name="Arnav" similarity="58" onMouseOver="similarityHighlightOn(58)" onMouseOut="similarityHighlightOff(58)" onClick="similarityHighlightStay(58)" src="img/vp_icons/arnav.jpg"></a> 
+                  <a rel="tooltip" type="ignored" title="Arnav<hr/>Introducing competing mess system"><img class="icon proposal" tag="3" name="Arnav" similarity="1" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/arnav.jpg"></a> 
+                    <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>Establish a Food Quality and Hygiene Monitoring Committee to define standards, conduct random checks on hall messes, canteens, and restaurants in the campus to maintain quality."><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="57" onMouseOver="similarityHighlightOn(57)" onMouseOut="similarityHighlightOff(57)" onClick="similarityHighlightStay(57)" src="img/vp_icons/ankit_singh_tawar.jpg"></a> 
+                    <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/> Online maintenance complaint system (as part of other IT serives)"><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="58" onMouseOver="similarityHighlightOn(58)" onMouseOut="similarityHighlightOff(58)" onClick="similarityHighlightStay(58)" src="img/vp_icons/ankit_singh_tawar.jpg"></a> 
+                    <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>IT support for: gymkhana activities, document student projects, streamline registration process, etc."><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="59" onMouseOver="similarityHighlightOn(59)" onMouseOut="similarityHighlightOff(59)" onClick="similarityHighlightStay(59)" src="img/vp_icons/ankit_singh_tawar.jpg"></a> 
+                    <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>Establish AIESEC chapter in IIT Kharagpur: offers leadership positions and opportunities for students and recent graduates to live and work in another country.Establish a network of battery operated buses covering all halls, departments and major points in the campus"><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="2" onMouseOver="similarityHighlightOn(2)" onMouseOut="similarityHighlightOff(2)" onClick="similarityHighlightStay(2)" src="img/vp_icons/ankit_singh_tawar.jpg"></a> 
+                    <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>Extend the daily timings of the reference section of Central Library to 3 am starting from a week ahead of exams till the end of exams."><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="50" onMouseOver="similarityHighlightOn(50)" onMouseOut="similarityHighlightOff(50)" onClick="similarityHighlightStay(50)" src="img/vp_icons/ankit_singh_tawar.jpg"></a> 
                     
 			
 			
 			    </td>
                 <td>
-                	<a rel="tooltip" type="pending" title="Shubham Matah<hr/>Provide additional infrastructure to student groups for conducting meetings."><img class="icon proposal" tag="4" name="Shubham Matah" similarity="1" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/shubham_matah.jpg"></a> 
-                    <a rel="tooltip" type="pending" title="Shubham Matah<hr/>Tie-up with Big Bazaar for home delivery of merchandise at discounted prices via teleshopping."><img class="icon proposal" tag="4" name="Shubham Matah" similarity="2" onMouseOver="similarityHighlightOn(2)" onMouseOut="similarityHighlightOff(2)" onClick="similarityHighlightStay(2)" src="img/vp_icons/shubham_matah.jpg"></a>
-                    <a rel="tooltip" type="partial" title="Digvijay Gagneja<hr/>Streaming of news channels in the LAN."><img class="icon proposal" tag="2" name="Digvijay Gagneja" similarity="3" onMouseOver="similarityHighlightOn(3)" onMouseOut="similarityHighlightOff(3)" onClick="similarityHighlightStay(3)" src="img/vp_icons/digvijay_gagneja.jpg"></a>
+                	<a rel="tooltip" type="pending" title="Shubham Matah<hr/>Provide additional infrastructure to student groups for conducting meetings."><img class="icon proposal" tag="4" name="Shubham Matah" similarity="3" onMouseOver="similarityHighlightOn(3)" onMouseOut="similarityHighlightOff(3)" onClick="similarityHighlightStay(3)" src="img/vp_icons/shubham_matah.jpg"></a> 
+                    <a rel="tooltip" type="pending" title="Shubham Matah<hr/>Tie-up with Big Bazaar for home delivery of merchandise at discounted prices via teleshopping."><img class="icon proposal" tag="4" name="Shubham Matah" similarity="4" onMouseOver="similarityHighlightOn(4)" onMouseOut="similarityHighlightOff(4)" onClick="similarityHighlightStay(4)" src="img/vp_icons/shubham_matah.jpg"></a>
+                    <a rel="tooltip" type="partial" title="Digvijay Gagneja<hr/>Streaming of news channels in the LAN."><img class="icon proposal" tag="2" name="Digvijay Gagneja" similarity="60" onMouseOver="similarityHighlightOn(60)" onMouseOut="similarityHighlightOff(60)" onClick="similarityHighlightStay(60)" src="img/vp_icons/digvijay_gagneja.jpg"></a>
                 </td>
                 <td>
                 	<a rel="tooltip" type="pending" title="Celestine Joseph<hr/>To improve upon the quality of mess food by introducing training for mess staff during summers"><img class="icon proposal" tag="1" name="Celestine Joseph" similarity="6" onMouseOver="similarityHighlightOn(6)" onMouseOut="similarityHighlightOff(6)" onClick="similarityHighlightStay(6)" src="img/vp_icons/celestine_joseph.jpg"></a> 
                  
-                    <a rel="tooltip" type="ignored" title="Celestine Joseph<hr/>Better lighting and security on campus and along Puri gate"><img class="icon proposal" tag="1" name="Celestine Joseph" similarity="4" onMouseOver="similarityHighlightOn(4)" onMouseOut="similarityHighlightOff(4)" onClick="similarityHighlightStay(4)" src="img/vp_icons/celestine_joseph.jpg"></a> 
+                    <a rel="tooltip" type="ignored" title="Celestine Joseph<hr/>Better lighting and security on campus and along Puri gate"><img class="icon proposal" tag="1" name="Celestine Joseph" similarity="7" onMouseOver="similarityHighlightOn(7)" onMouseOut="similarityHighlightOff(7)" onClick="similarityHighlightStay(7)" src="img/vp_icons/celestine_joseph.jpg"></a> 
                     <a rel="tooltip" type="pending" title="Celestine Joseph<hr/>Electronic notice boards for better information dispersal"><img class="icon proposal" tag="1" name="Celestine Joseph" similarity="60" onMouseOver="similarityHighlightOn(60)" onMouseOut="similarityHighlightOff(60)" onClick="similarityHighlightStay(60)" src="img/vp_icons/celestine_joseph.jpg"></a> 
-                   <a rel="tooltip" type="partial" title="Nivesh Pandey<hr/>Formation of a central committe of students under the Vice president to work with the Hall Management Center to ensure proactive student welfare."><img class="icon proposal" tag="3" name="Nivesh Pandey" similarity="1" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/nivesh_pandey.jpg"></a> 
+                   <a rel="tooltip" type="partial" title="Nivesh Pandey<hr/>Formation of a central committe of students under the Vice president to work with the Hall Management Center to ensure proactive student welfare."><img class="icon proposal" tag="3" name="Nivesh Pandey" similarity="8" onMouseOver="similarityHighlightOn(8)" onMouseOut="similarityHighlightOff(8)" onClick="similarityHighlightStay(8)" src="img/vp_icons/nivesh_pandey.jpg"></a> 
                    <a rel="tooltip" type="partial" title="Nivesh Pandey<hr/>Online transaction gateway."><img class="icon proposal" tag="3" name="Nivesh Pandey" similarity="59" onMouseOver="similarityHighlightOn(59)" onMouseOut="similarityHighlightOff(59)" onClick="similarityHighlightStay(59)" src="img/vp_icons/nivesh_pandey.jpg"></a> 
                 </td>
                 <td>
@@ -305,22 +301,22 @@
                 <a rel="tooltip" type="partial" title="Akshat Verma<hr/>Bus service between Kharagpur and Kolkata on weekends"><img class="icon proposal" tag="0" name="Akshat Verma" similarity="10" onMouseOver="similarityHighlightOn(10)" onMouseOut="similarityHighlightOff(10)" onClick="similarityHighlightStay(10)" src="img/vp_icons/akshat_verma.jpg"></a> </td>
                 </td>
                 <td>
-                    <a rel="tooltip" type="done" title="Rinshul Chandra<hr/>Creating of a PR Cell"><img class="icon proposal" tag="0" name="Rinshul Chandra" similarity="1" tag="0" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/rinshul_chandra.jpg"></a> 
+                    <a rel="tooltip" type="done" title="Rinshul Chandra<hr/>Creation of a PR Cell"><img class="icon proposal" tag="0" name="Rinshul Chandra" similarity="9" onMouseOver="similarityHighlightOn(9)" onMouseOut="similarityHighlightOff(9)" onClick="similarityHighlightStay(9)" src="img/vp_icons/rinshul_chandra.jpg"></a> 
+					<a rel="tooltip" type="ignored" title="Rinshul Chandra<hr/>Changes in the basic and structural functioning of the Central Library."><img class="icon proposal" tag="0" name="Rinshul Chandra" similarity="50" onMouseOver="similarityHighlightOn(50)" onMouseOut="similarityHighlightOff(50)" onClick="similarityHighlightStay(50)" src="img/vp_icons/rinshul_chandra.jpg"></a>
+					<a rel="tooltip" type="done" title="Rinshul Chandra<hr/>Amendments to be made in the way PG halls of residences’ mess tenders are awarded."><img class="icon proposal" tag="0" name="Rinshul Chandra" similarity="5" onMouseOver="similarityHighlightOn(5)" onMouseOut="similarityHighlightOff(5)" onClick="similarityHighlightStay(5)" src="img/vp_icons/rinshul_chandra.jpg"></a>
                     <a rel="tooltip" type="partial" title="Vishal Devrajan<hr/>Improvement to Gymkhana. Creating student profiles, common online forums, grievance forums."><img class="icon proposal" tag="3" name="Vishal Devrajan" similarity="58" onMouseOver="similarityHighlightOn(58)" onMouseOut="similarityHighlightOff(58)" onClick="similarityHighlightStay(58)" src="img/vp_icons/vishal_devrajan.jpg"></a> 
-                    <a rel="tooltip" type="partial" title="Vishal Devrajan<hr/>A number of changes to functioning of Central Library"><img class="icon proposal" tag="3" name="Vishal Devrajan" similarity="50" onMouseOver="similarityHighlightOn(50)" onMouseOut="similarityHighlightOff(50)" onClick="similarityHighlightStay(50)" src="img/vp_icons/vishal_devrajan.jpg"></a> 
-                    <a rel="tooltip" type="partial" title="Vishal Devrajan<hr/>Amendments to be made in the way PG Halls of residences' mess tenders are awarded."><img class="icon proposal" tag="3" name="Vishal Devrajan" similarity="12" onMouseOver="similarityHighlightOn(12)" onMouseOut="similarityHighlightOff(12)" onClick="similarityHighlightStay(12)" src="img/vp_icons/vishal_devrajan.jpg"></a> 
                 </td>
             </tr>
             
             <tr>
-                <td style="text-align: center;"><div class="category" id="welfare"><h4>Welfare</h4></div></td>
+                <td style="text-align: center;"><div class="category" id="welfare"><a rel="tooltip" type="help" title="There's more to life than a cozy existence. This category includes proposals which aim to add to your skill-set in some manner, such as information sessions for freshers, or target the realm of extra-curriculars, such as the inter-IITs and societies. We've also included proposals related to student research in this category."><h4>Welfare</h4></a></div></td>
                 <td></td>
                 <td>
-                <a rel="tooltip" type="done" title="Arnav<hr/>Building of an e-resource platform for students to share class notes of previous semesters, examination papers and resources for career enhancement"><img class="icon proposal" tag="0" name="Arnav" similarity="1" tag="0" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/default.png"></a> 
+                <a rel="tooltip" type="done" title="Arnav<hr/>Building of an e-resource platform for students to share class notes of previous semesters, examination papers and resources for career enhancement"><img class="icon proposal" tag="3" name="Arnav" similarity="11" onMouseOver="similarityHighlightOn(11)" onMouseOut="similarityHighlightOff(11)" onClick="similarityHighlightStay(11)" src="img/vp_icons/arnav.jpg"></a> 
                 
-                 <a rel="tooltip" type="ignored" title="Arnav<hr/>Inducting students in the library committee so that more money is devoted to books required by students"><img class="icon proposal" tag="4" name="Arnav" similarity="1" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/default.png"></a> 
+                 <a rel="tooltip" type="ignored" title="Arnav<hr/>Inducting students in the library committee so that more money is devoted to books required by students"><img class="icon proposal" tag="3" name="Arnav" similarity="13" onMouseOver="similarityHighlightOn(13)" onMouseOut="similarityHighlightOff(13)" onClick="similarityHighlightStay(13)" src="img/vp_icons/arnav.jpg"></a> 
                
-                <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>    Introduce fresher counseling: fresher orientation, parents’ orientation and student mentor allocation."><img class="icon proposal" tag="4" name="Ankit Singh Tawar" similarity="1" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/default.png"></a> 
+                <a rel="tooltip" type="partial" title="Ankit S Talwar<hr/>    Introduce fresher counseling: fresher orientation, parents’ orientation and student mentor allocation."><img class="icon proposal" tag="0" name="Ankit Singh Tawar" similarity="14" onMouseOver="similarityHighlightOn(14)" onMouseOut="similarityHighlightOff(14)" onClick="similarityHighlightStay(14)" src="img/vp_icons/ankit_singh_tawar.jpg"></a> 
 			
             
                 </td>
@@ -329,28 +325,28 @@
                    <a rel="tooltip" type="partial" title="Nivesh Pandey<hr/>Stimulus for extra curriculars. Inclusion of PG Gymkhana representatives in each GC category. Budget to societies for external participation. Formal Inter-IIT training and others"><img class="icon proposal" tag="3" name="Nivesh Pandey" similarity="18" onMouseOver="similarityHighlightOn(18)" onMouseOut="similarityHighlightOff(18)" onClick="similarityHighlightStay(18)" src="img/vp_icons/nivesh_pandey.jpg"></a> </td>
                 <td></td>
                 <td>
-                <a rel="tooltip" type="partial" title="Vishal Devrajan<hr/>Creation of a Cultural Technology Dramatics society."><img class="icon proposal" tag="3" name="Vishal Devrajan" similarity="20" onMouseOver="similarityHighlightOn(20)" onMouseOut="similarityHighlightOff(20)" onClick="similarityHighlightStay(20)" src="img/vp_icons/vishal_devrajan.jpg"></a> </td>
+                <a rel="tooltip" type="ignored" title="Rinshul Chandra<hr/>Creation of a Cultural Technology Dramatics society."><img class="icon proposal" tag="0" name="Rinshul Chandra" similarity="20" onMouseOver="similarityHighlightOn(20)" onMouseOut="similarityHighlightOff(20)" onClick="similarityHighlightStay(20)" src="img/vp_icons/rinshul_chandra.jpg"></a> </td>
             </tr>
             <tr>
-                <td style="text-align: center;"><div class="category" id="placements"><h4>Placements</h4></div></td>
+                <td style="text-align: center;"><div class="category" id="placements"><a rel="tooltip" type="help" title="Needs little explanation."><h4>Placements</h4></a></div></td>
                 <td>
-                    <a rel="tooltip" type="pending" title="Kunal Kashyap<hr/>To make a Foreign Applications Cell at the Institute level."><img class="icon proposal progress" tag="3" name="Kunal Kashyap" similarity="51" onMouseOver="similarityHighlightOn(51)" onMouseOut="similarityHighlightOff(51)" onClick="similarityHighlightStay(51)" src="img/vp_icons/kunal_kashyap.jpg"></a> 
-                    <a rel="tooltip" type="ignored" title="Kunal Kashyap<hr/>Formation of groups of people with interests in a particular alternative career, such as IAS."><img class="icon proposal" tag="3" name="Kunal Kashyap" similarity="55" onMouseOver="similarityHighlightOn(55)" onMouseOut="similarityHighlightOff(55)" onClick="similarityHighlightStay(55)" src="img/vp_icons/kunal_kashyap.jpg"></a> 
-                    <a rel="tooltip" type="done" title="Kunal Kashyap<hr/>To make institute and department specific brochures highlighting the achievements, facilities, capabilities in the concerned domain."><img class="icon proposal" tag="3" name="Kunal Kashyap" similarity="15" onMouseOver="similarityHighlightOn(15)" onMouseOut="similarityHighlightOff(15)" onClick="similarityHighlightStay(15)" src="img/vp_icons/kunal_kashyap.jpg"></a>
+                    <a rel="tooltip" type="pending" title="Kunal Kashyap<hr/>To make a Foreign Applications Cell at the Institute level."><img class="icon proposal progress" tag="4" name="Kunal Kashyap" similarity="51" onMouseOver="similarityHighlightOn(51)" onMouseOut="similarityHighlightOff(51)" onClick="similarityHighlightStay(51)" src="img/vp_icons/kunal_kashyap.jpg"></a> 
+                    <a rel="tooltip" type="ignored" title="Kunal Kashyap<hr/>Formation of groups of people with interests in a particular alternative career, such as IAS."><img class="icon proposal" tag="4" name="Kunal Kashyap" similarity="55" onMouseOver="similarityHighlightOn(55)" onMouseOut="similarityHighlightOff(55)" onClick="similarityHighlightStay(55)" src="img/vp_icons/kunal_kashyap.jpg"></a> 
+                    <a rel="tooltip" type="done" title="Kunal Kashyap<hr/>To make institute and department specific brochures highlighting the achievements, facilities, capabilities in the concerned domain."><img class="icon proposal" tag="4" name="Kunal Kashyap" similarity="15" onMouseOver="similarityHighlightOn(15)" onMouseOut="similarityHighlightOff(15)" onClick="similarityHighlightStay(15)" src="img/vp_icons/kunal_kashyap.jpg"></a>
                 </td>
                 <td>
-                 <a rel="tooltip" type="pending" title="Arnav<hr/>Increasing student involvement in TnP: having 2 reps from each dept (1 UG, 1 PG) for dept-specific needs"><img class="icon proposal" tag="4" name="Arnav" similarity="53" onMouseOver="similarityHighlightOn(53)" onMouseOut="similarityHighlightOff(53)" onClick="similarityHighlightStay(53)" src="img/vp_icons/default.png"></a> 
-                 <a rel="tooltip" type="ignored" title="Arnav<hr/>Setting up a career options cell which will conduct regular seminars on various career option like IAS, GRE, GMAT, FRM, NCFM, Actuarial sciences etc. In conjunction with the e-resources portal this cell will act as the first source of study material."><img class="icon proposal" tag="4" name="Arnav" similarity="1" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/default.png"></a> 
+                 <a rel="tooltip" type="pending" title="Arnav<hr/>Increasing student involvement in TnP: having 2 reps from each dept (1 UG, 1 PG) for dept-specific needs"><img class="icon proposal" tag="3" name="Arnav" similarity="53" onMouseOver="similarityHighlightOn(53)" onMouseOut="similarityHighlightOff(53)" onClick="similarityHighlightStay(53)" src="img/vp_icons/arnav.jpg"></a> 
+                 <a rel="tooltip" type="ignored" title="Arnav<hr/>Setting up a career options cell which will conduct regular seminars on various career option like IAS, GRE, GMAT, FRM, NCFM, Actuarial sciences etc. In conjunction with the e-resources portal this cell will act as the first source of study material."><img class="icon proposal" tag="3" name="Arnav" similarity="16" onMouseOver="similarityHighlightOn(16)" onMouseOut="similarityHighlightOff(16)" onClick="similarityHighlightStay(16)" src="img/vp_icons/arnav.jpg"></a> 
 
                 
                 </td>
                 <td>
                     <a rel="tooltip" type="pending" title="Shubham Matah<hr/>Formation of the 'Alternate careers group' under the TSG in order to provide students with information about alternate career paths."><img class="icon proposal" tag="4" name="Shubham Matah" similarity="55" onMouseOver="similarityHighlightOn(55)" onMouseOut="similarityHighlightOff(55)" onClick="similarityHighlightStay(55)" src="img/vp_icons/shubham_matah.jpg"></a> 
-                    <a rel="tooltip" type="ignored" title="Shubham Matah<hr/>Changes to improve the placements in IIT Kharagpur. Department representatives, placement funda collection, profile pages, mock test sessions."><img class="icon proposal" tag="52" name="Shubham Matah" similarity="52" onMouseOver="similarityHighlightOn(52)" onMouseOut="similarityHighlightOff(52)" onClick="similarityHighlightStay(52)" src="img/vp_icons/shubham_matah.jpg"></a>
-                    <a rel="tooltip" type="ignored" title="Shubham Matah<hr/>Department representatives to help in placement funda collection"><img class="icon proposal" tag="53" name="Shubham Matah" similarity="53" onMouseOver="similarityHighlightOn(53)" onMouseOut="similarityHighlightOff(53)" onClick="similarityHighlightStay(53)" src="img/vp_icons/shubham_matah.jpg"></a>  
+                    <a rel="tooltip" type="ignored" title="Shubham Matah<hr/>Changes to improve the placements in IIT Kharagpur. Department representatives, placement funda collection, profile pages, mock test sessions."><img class="icon proposal" tag="4" name="Shubham Matah" similarity="52" onMouseOver="similarityHighlightOn(52)" onMouseOut="similarityHighlightOff(52)" onClick="similarityHighlightStay(52)" src="img/vp_icons/shubham_matah.jpg"></a>
+                    <a rel="tooltip" type="ignored" title="Shubham Matah<hr/>Department representatives to help in placement funda collection"><img class="icon proposal" tag="4" name="Shubham Matah" similarity="53" onMouseOver="similarityHighlightOn(53)" onMouseOut="similarityHighlightOff(53)" onClick="similarityHighlightStay(53)" src="img/vp_icons/shubham_matah.jpg"></a>  
                     <a rel="tooltip" type="partial" title="Digvijay Gagneja<hr/>Establishment of a body for students' welfare. A formalized training procedure."><img class="icon proposal" tag="2" name="Digvijay Gagneja" similarity="17" onMouseOver="similarityHighlightOn(17)" onMouseOut="similarityHighlightOff(17)" onClick="similarityHighlightStay(17)" src="img/vp_icons/digvijay_gagneja.jpg"> 
                     
-                    <a rel="tooltip" type="partial" title="Digvijay Gagneja<hr/>Collaboration with NGO's to educate students and provide internship opportunities."><img class="icon proposal" tag="2" name="Digvijay Gagneja" similarity="13" onMouseOver="similarityHighlightOn(13)" onMouseOut="similarityHighlightOff(13)" onClick="similarityHighlightStay(13)" src="img/vp_icons/digvijay_gagneja.jpg"> 
+                    <a rel="tooltip" type="partial" title="Digvijay Gagneja<hr/>Collaboration with NGO's to educate students and provide internship opportunities."><img class="icon proposal" tag="2" name="Digvijay Gagneja" similarity="16" onMouseOver="similarityHighlightOn(16)" onMouseOut="similarityHighlightOff(16)" onClick="similarityHighlightStay(16)" src="img/vp_icons/digvijay_gagneja.jpg"> 
                     <a rel="tooltip" type="partial" title="Digvijay Gagneja<hr/>Introduction of Department Representatives in the training and placement comittee to make the placement process more effective and penetrative."><img class="icon proposal" tag="2" name="Digvijay Gagneja" similarity="53" onMouseOver="similarityHighlightOn(53)" onMouseOut="similarityHighlightOff(53)" onClick="similarityHighlightStay(53)" src="img/vp_icons/digvijay_gagneja.jpg"></a>
                 </td>
                 <td>
@@ -361,47 +357,113 @@
                     <a rel="tooltip" type="partial" title="Ankit Singh<hr/>Introduction of a GD/ PI course."><img class="icon proposal" tag="3" name="Ankit Singh" similarity="52" onMouseOver="similarityHighlightOn(52)" onMouseOut="similarityHighlightOff(52)" onClick="similarityHighlightStay(52)" src="img/vp_icons/ankit_singh.jpg"></a> 
                 </td>
                 <td>
-                    <a rel="tooltip" type="ignored" title="Prateek Agarwal<hr/>A new website exclusively for the Training and placement section to cater to the needs of students and companies."><img class="icon proposal" tag="1" name="Prateek Agarwal" similarity="15" onMouseOver="similarityHighlightOn(15)" onMouseOut="similarityHighlightOff(15)" onClick="similarityHighlightStay(15)" src="img/vp_icons/prateek_agarwal.jpg"></a> 
+                    <a rel="tooltip" type="ignored" title="Prateek Agarwal<hr/>A new website exclusively for the Training and placement section to cater to the needs of students and companies."><img class="icon proposal" tag="1" name="Prateek Agarwal" similarity="19" onMouseOver="similarityHighlightOn(19)" onMouseOut="similarityHighlightOff(19)" onClick="similarityHighlightStay(19)" src="img/vp_icons/prateek_agarwal.jpg"></a> 
                     <a rel="tooltip" type="partial" title="Akshat Verma<hr/>Placement preparation committee. Conduct workshops, career e-newsletter, placement drive, feedback form from students."><img class="icon proposal" tag="0" name="Akshat Verma" similarity="52" onMouseOver="similarityHighlightOn(52)" onMouseOut="similarityHighlightOff(52)" onClick="similarityHighlightStay(52)" src="img/vp_icons/akshat_verma.jpg"></a> 
                 </td>
                 <td>
                     <a rel="tooltip" type="ignored" title="Rinshul Chandra<hr/>Improvements to Tnp."><img class="icon proposal" tag="0" name="Rinshul Chandra" tag="0" similarity="52" onMouseOver="similarityHighlightOn(52)" onMouseOut="similarityHighlightOff(52)" onClick="similarityHighlightStay(52)" src="img/vp_icons/rinshul_chandra.jpg"></a> 
-                    <a rel="tooltip" type="pending" title="Rinshul Chandra<hr/>Involvement of Department representatives to collect dept. specific funda"><img class="icon proposal" tag="0" name="Rinshul Chandra" tag="0" similarity="53" onMouseOver="similarityHighlightOn(53)" onMouseOut="similarityHighlightOff(53)" onClick="similarityHighlightStay(53)" src="img/vp_icons/rinshul_chandra.jpg"></a> 
-                    <a rel="tooltip" type="ignored" title="Rinshul Chandra<hr/>Foreign applications cell."><img class="icon proposal" tag="0" name="Rinshul Chandra" tag="0" similarity="51" onMouseOver="similarityHighlightOn(51)" onMouseOut="similarityHighlightOff(51)" onClick="similarityHighlightStay(51)" src="img/vp_icons/rinshul_chandra.jpg"></a> 
-                    <a rel="tooltip" type="partial" title="Vishal Devrajan<hr/>Look for intern opportunities, online repository for students applying to universities. Changes to TnP."><img class="icon proposal" tag="3" name="Vishal Devrajan" similarity="51" onMouseOver="similarityHighlightOn(56)" onMouseOut="similarityHighlightOff(56)" onClick="similarityHighlightStay(56)" src="img/vp_icons/vishal_devrajan.jpg"></a> 
+                    <a rel="tooltip" type="ignored" title="Rinshul Chandra<hr/>Involvement of Department representatives to collect dept. specific funda"><img class="icon proposal" tag="0" name="Rinshul Chandra" tag="0" similarity="53" onMouseOver="similarityHighlightOn(53)" onMouseOut="similarityHighlightOff(53)" onClick="similarityHighlightStay(53)" src="img/vp_icons/rinshul_chandra.jpg"></a> 
+                    <a rel="tooltip" type="pending" title="Rinshul Chandra<hr/>Foreign applications cell."><img class="icon proposal" tag="0" name="Rinshul Chandra" tag="0" similarity="51" onMouseOver="similarityHighlightOn(51)" onMouseOut="similarityHighlightOff(51)" onClick="similarityHighlightStay(51)" src="img/vp_icons/rinshul_chandra.jpg"></a> 
+                    <a rel="tooltip" type="partial" title="Vishal Devrajan<hr/>Look for intern opportunities, online repository for students applying to universities. Changes to TnP."><img class="icon proposal" tag="3" name="Vishal Devrajan" similarity="51" onMouseOver="similarityHighlightOn(51)" onMouseOut="similarityHighlightOff(51)" onClick="similarityHighlightStay(51)" src="img/vp_icons/vishal_devrajan.jpg"></a> 
                 </td>
             </tr>
-                 <td style="text-align: center;"><div class="category" id="others"><h4>Others </h4></div></td>
+                 <td style="text-align: center;"><div class="category" id="others"><a rel="tooltip" type="help" title="Interesting, amusing, thought-provoking ideas that don't fit clearly into the above."><h4>Others </h4></a></div></td>
                 <td></td>
                 <td>
-                       <a rel="tooltip" type="pending" title="Arnav<hr/>Establishment of a core marketing team of students in SRIC so that students can earn handsome stipends by working on industry sponsored projects within the institute."><img class="icon proposal" tag="4" name="Arnav" similarity="54" onMouseOver="similarityHighlightOn(54)" onMouseOut="similarityHighlightOff(54)" onClick="similarityHighlightStay(54)" src="img/vp_icons/default.png"></a> 
+                       <a rel="tooltip" type="pending" title="Arnav<hr/>Establishment of a core marketing team of students in SRIC so that students can earn handsome stipends by working on industry sponsored projects within the institute."><img class="icon proposal" tag="3" name="Arnav" similarity="54" onMouseOver="similarityHighlightOn(54)" onMouseOut="similarityHighlightOff(54)" onClick="similarityHighlightStay(54)" src="img/vp_icons/arnav.jpg"></a> 
                 
-                       <a rel="tooltip" type="pending" title="Arnav<hr/>Making IIT Kharagpur a centre for CAT"><img class="icon proposal" tag="4" name="Arnav" similarity="1" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/default.png"></a> 
+                       <a rel="tooltip" type="pending" title="Arnav<hr/>Making IIT Kharagpur a centre for CAT"><img class="icon proposal" tag="3" name="Arnav" similarity="20" onMouseOver="similarityHighlightOn(20)" onMouseOut="similarityHighlightOff(20)" onClick="similarityHighlightStay(20)" src="img/vp_icons/arnav.jpg"></a> 
                 </td>
                 <td>
                     <a rel="tooltip" type="pending" title="Shubham Matah<hr/>Get sponsored industrial B.Tech and M.Tech projects for students."><img class="icon proposal" tag="4" name="Shubham Matah" similarity="54" onMouseOver="similarityHighlightOn(54)" onMouseOut="similarityHighlightOff(54)" onClick="similarityHighlightStay(54)" src="img/vp_icons/shubham_matah.jpg"></a>
                     
-                    <a rel="tooltip" type="partial" title="Central mechanism for Intra-Kgp intern projects and stipends for the same"><img class="icon proposal" tag="2" name="Digvijay Gagneja" similarity="54" onMouseOver="similarityHighlightOn(54)" onMouseOut="similarityHighlightOff(54)" onClick="similarityHighlightStay(54)" src="img/vp_icons/digvijay_gagneja.jpg"> 
+                    <a rel="tooltip" type="partial" title="Digvijay Gagneja<hr/>Central mechanism for Intra-Kgp intern projects and stipends for the same"><img class="icon proposal" tag="2" name="Digvijay Gagneja" similarity="54" onMouseOver="similarityHighlightOn(54)" onMouseOut="similarityHighlightOff(54)" onClick="similarityHighlightStay(54)" src="img/vp_icons/digvijay_gagneja.jpg"> 
                     
                 </td>
                 <td>
                 
                     <a rel="tooltip" type="partial" title="Nivesh Pandey<hr/>Soliciting greater participation of students in administrative decisions pertaining to student welfare."><img class="icon proposal" tag="3" name="Nivesh Pandey" similarity="61" onMouseOver="similarityHighlightOn(61)" onMouseOut="similarityHighlightOff(61)" onClick="similarityHighlightStay(61)" src="img/vp_icons/nivesh_pandey.jpg"></a> 
                     
-                    <a rel="tooltip" type="partial" title="Ankit Singh<hr/> Energy conservation contest amongst halls."><img class="icon proposal" tag="3" name="Ankit Singh" similarity="15" onMouseOver="similarityHighlightOn(15)" onMouseOut="similarityHighlightOff(15)" onClick="similarityHighlightStay(15)" src="img/vp_icons/ankit_singh.jpg"></a> 
+                    <a rel="tooltip" type="partial" title="Ankit Singh<hr/> Energy conservation contest amongst halls."><img class="icon proposal" tag="3" name="Ankit Singh" similarity="21" onMouseOver="similarityHighlightOn(21)" onMouseOut="similarityHighlightOff(21)" onClick="similarityHighlightStay(21)" src="img/vp_icons/ankit_singh.jpg"></a> 
                     
-                    <a rel="tooltip" type="partial" title="Ankit Singh<hr/>Right to Information forum on GymK website."><img class="icon proposal" tag="3" name="Ankit Singh" similarity="15" onMouseOver="similarityHighlightOn(15)" onMouseOut="similarityHighlightOff(15)" onClick="similarityHighlightStay(15)" src="img/vp_icons/ankit_singh.jpg"></a> 
+                    <a rel="tooltip" type="partial" title="Ankit Singh<hr/>Right to Information forum on GymK website."><img class="icon proposal" tag="3" name="Ankit Singh" similarity="22" onMouseOver="similarityHighlightOn(22)" onMouseOut="similarityHighlightOff(22)" onClick="similarityHighlightStay(22)" src="img/vp_icons/ankit_singh.jpg"></a> 
                    
                 </td>
                 <td>
                     <a rel="tooltip" type="pending" title="Prateek Agarwal<hr/>Institute will fund a students' research with a stipend for those working on projects under institute professor guidance in the summers."><img class="icon proposal" tag="1" name="Prateek Agarwal" similarity="54" onMouseOver="similarityHighlightOn(54)" onMouseOut="similarityHighlightOff(54)" onClick="similarityHighlightStay(54)" src="img/vp_icons/prateek_agarwal.jpg"></a> 
                 </td>
                 <td>
-                    <a rel="tooltip" type="partial" title="Vishal Devrajan<hr/>Soliciting greater participation of students in decisions pertaining to student welfare."><img class="icon proposal" tag="3" name="Vishal Devrajan" similarity="1" onMouseOver="similarityHighlightOn(1)" onMouseOut="similarityHighlightOff(1)" onClick="similarityHighlightStay(1)" src="img/vp_icons/vishal_devrajan.jpg"></a> 
+                    <a rel="tooltip" type="partial" title="Vishal Devrajan<hr/>Soliciting greater participation of students in decisions pertaining to student welfare."><img class="icon proposal" tag="3" name="Vishal Devrajan" similarity="61" onMouseOver="similarityHighlightOn(61)" onMouseOut="similarityHighlightOff(61)" onClick="similarityHighlightStay(61)" src="img/vp_icons/vishal_devrajan.jpg"></a> 
                 </td>
             </tr>
         </table>
-        
-        </div>
-    </body>
+		<hr/>
+		<b>Click to explore these trends</b><br/>
+		<a class="text-link" similarity="50" onMouseOver="similarityHighlightOn(50)" onMouseOut="similarityHighlightOff(50)" onClick="similarityHighlightStay(50)">Library Trend</a> | 
+		<a class="text-link" similarity="51" onMouseOver="similarityHighlightOn(51)" onMouseOut="similarityHighlightOff(51)" onClick="similarityHighlightStay(51)">Foreign Application Cell</a> | 
+		<a class="text-link" similarity="52" onMouseOver="similarityHighlightOn(52)" onMouseOut="similarityHighlightOff(52)" onClick="similarityHighlightStay(52)">Formal training help for placements</a> | 
+		<a class="text-link" similarity="53" onMouseOver="similarityHighlightOn(53)" onMouseOut="similarityHighlightOff(53)" onClick="similarityHighlightStay(53)">Department representatives</a> | 
+		<a class="text-link" similarity="54" onMouseOver="similarityHighlightOn(54)" onMouseOut="similarityHighlightOff(54)" onClick="similarityHighlightStay(54)">Funding for student projects</a> | 
+		<a class="text-link" similarity="55" onMouseOver="similarityHighlightOn(55)" onMouseOut="similarityHighlightOff(55)" onClick="similarityHighlightStay(55)">Alternate careers</a> | 
+		<a class="text-link" similarity="56" onMouseOver="similarityHighlightOn(56)" onMouseOut="similarityHighlightOff(56)" onClick="similarityHighlightStay(56)">Institute support for Internships</a> | 
+		<a class="text-link" similarity="57" onMouseOver="similarityHighlightOn(57)" onMouseOut="similarityHighlightOff(57)" onClick="similarityHighlightStay(57)">Mess monitoring</a> | 
+		<a class="text-link" similarity="58" onMouseOver="similarityHighlightOn(58)" onMouseOut="similarityHighlightOff(58)" onClick="similarityHighlightStay(58)">Grievance reporting</a> | 
+		<a class="text-link" similarity="59" onMouseOver="similarityHighlightOn(59)" onMouseOut="similarityHighlightOff(59)" onClick="similarityHighlightStay(59)">Online initiatives</a> | 
+		<a class="text-link" similarity="60" onMouseOver="similarityHighlightOn(60)" onMouseOut="similarityHighlightOff(60)" onClick="similarityHighlightStay(60)">Information dispersal</a> | 
+		<a class="text-link" similarity="61" onMouseOver="similarityHighlightOn(61)" onMouseOut="similarityHighlightOff(61)" onClick="similarityHighlightStay(61)">Student participation in administration</a>
+		
+		<hr/>
+		
+		<div class="text-intro">
+<p><b>The infographic incorporates various details. Things to look for are:</b><br/>
+<ul>
+<li>In each year, the categories across which proposals of a candidate lie can be seen.</li>
+<li>A one-line summary of the proposal is visible on hovering over it.</li>
+<li>How successful was a proposal? This is colour-coded: green is a thumbs-up; organge signifies partial success; red is a nada. These colours don't make sense for candidates who didn't win. Such proposals are coded blue. Details on the judgement are elsewhere in this article.</li>
+<li>On hovering above a proposal, similar ones across time are highlighted.</li></ul></p>
+
+<p><b>How was similarity decided?</b><br/>
+The similarity between certain classes are visible right away on a first inspection, e.g. the foreign application cell, which has starred in the list of proposals numerous times, from 2007-2012. Finding other connections is more subtle, because proposals can be not just repeated but rearranged. Formal training for placements in the form of mock sessions and passing on of funda is one such issue. </p>
+<p>There are areas where the connection between proposals is not a one-hundred-percent. For instance, we clubbed Celestine's proposal on electronic noticeboards, Prateek's weekly-email and Akshat's plan of increasing awareness amongst PGs and facchas under information dispersal. What is interesting is that these ideas, in our analysis, are undoubtedly related. </p>
+<p>Now some amount of similarity is expected. Say a candidate didn't win but had good ideas which weren't implemented by the winning one either, and then these are legitly taken up in the future. Or say that continual development on important issues is warranted. But we are of the opinion that some high-interest topics get inevitably repeated, such as placements, because candidates don't want to be the guy who didn't make a proposal out of them. We also think that proposals on common themes act like filler material.</p>
+
+<p><b>Now how exactly were the proposals judged?</b><br/>
+A couple of disclaimers and explanations are in order, and we encourage you to read on before drawing weapons in defense of your favourite VP. We've made a decision based on the Vice Presidential review TSA performs at the end of each year. The orange colour category is, admittedly, the grayest area. In some cases it signifies that effort was put in, but it did not lead to a fulfilment of the proposal, e.g. Prateek's idea of an online grievance facility was implemented but is not active. It must also be remembered that proposals are dynamic. Upon assuming office, the office-bearers might realize that their proposal may be implemented in a modified form or tied up with other undertakings, e.g. Arnav's proposal to create a career options cell for conducting seminars was met by roping Communique into TSG. The categorization should also not be taken as a literal indicator of the work put in by the VP in question. In some cases, it is after a number of sincere attempts that the infeasibility of a project becomes apparent. In others, the VP has simply not done enough. </p>
+<p>Another valid point that can be raised is that a project started by a particular candidate is carried over in the next year by the subsequent elected body. In addition, VPs often do considerable work beyond their proposals. The categorization here does not reflect that. This is because we are specifically drawing attention to proposals as they are announced at the time of elections. For details on the ultimate fate of proposals, we point you to the full-scale reviews available on our site. In providing an initial flavour however, we believe the colour categorization is accurate.</p>
+
+<p><b>Other interesting bits</b><br/>
+Check out <a class="text-link" href="http://noticeboard.iitkgp.ernet.in/complaints/">this</a> artefact from Arnav's time, an online complaint portal.<br/>
+A PG influence in the proposals is seen only in recent years. No doubt because of an increased proportion amongst the campus population. </p>
+
+<p>
+<b>Final thoughts</b><br/>
+The point that all our analysis hits on, the essential takeaway from our infographic, is that it would become the candidates better to be realistic with their proposals.</p>
+<ul>
+<li>Some proposals are consistently carried over across terms? Then a candidate must honestly set a time-frame of greater than an year for their implementation.</li>
+<li>Some proposals are judged orange because they were implemented in a reduced form? Then a candidate must be pragmatic in the initial framing. Candidates can easily find out about the heavy workload a VP faces during his term and schedule projects accordingly. </li>
+<li>Some issues are consistently recycled and fail to get implemented? Then a candidate must sit down with a history book, and prepare with sufficient research if he decides to throw the gauntlet yet again.</li>
+<li>Some issues are deemed infeasible soon after the beginning of a term? Then a candidate must run his proposal against the administration early on. Practical constraints that hinder progress may exist even before he/she gets elected.</li>
+</ul>
+<p>Proposals aren't drafted by a candidate in isolation, and our appeal goes out to the entire teams that assist in this process. We're not here to dampen ambition. The big problems that exist must be tackled by the horns despite an apprehension of failure. We're here to defuse the fireworks that blaze at the SOP, to clip the soaring promises. We urge candidates to uncloak proposals of their glamour: the candidates will not be the less wiser for doing so, and we expect the Kgp population to appreciate such a step.</p>
+
+<p>Have fun playing around! We welcome criticisms of the idea and suggestions for a better approach.</p>
+</div>
+
+</div>
+
+<div id="footer"><center>
+<b>From the archives of <i>The Scholars' Avenue</i>:</b><br/>
+<a class="text-link" href="http://scholarsavenue.org/election-coverage/vice-president-gymkhana/kunal-kashyap/">Kunal Kashyap</a> | 
+<a class="text-link" href="http://scholarsavenue.org/election-coverage/vice-president-gymkhana/arnav/">Arnav</a> | 
+<a class="text-link" href="http://scholarsavenue.org/election-coverage/vice-president-gymkhana/shubham-matah/">Shubham Matah</a> | 
+<a class="text-link" href="http://www.scholarsavenue.org/2010/03/vp-candidates-profiles/">2010-11 Candidate profiles</a> | 
+<a class="text-link" href="http://www.scholarsavenue.org/2010/10/interview-with-celestine-joseph-vice-president-tsg/">Celestine Joseph</a> | 
+<a class="text-link" href="http://www.scholarsavenue.org/2012/03/interview-with-the-vp/">Prateek Agarwal</a> | 
+<a class="text-link" href="http://www.scholarsavenue.org/2012/11/vpspeak/">Rinshul Chandra</a>
+<hr/>
+
+Visualization: Ajay Viswanathan | Content and Analysis: Abhijeet T and Pranav Rao<br/>Minimum recommended resolution: 1366x728</center>
+</div>
+
+</body>
 </html>
